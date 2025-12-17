@@ -17,10 +17,27 @@ a {
     text-decoration: none;
 }
 
-.nav-wrapper {
+h2 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+button {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 900;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 8px;
+}
+
+/* MENU BAR */
+
+.nav-wrapper, .hero-wrapper {
     background-color: #1f2937;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-block: 20px;
 }
 
 .container {
@@ -47,5 +64,28 @@ a {
 
 .menu-items > li > a {
     color: #F9FAF8;
-        font-size: 18px;
+    font-size: 18px;
+}
+
+/* HERO SECTION */
+.hero-wrapper {
+    padding-block: 50px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+}
+
+.hero-left {
+    padding-right: 50px;
+}
+
+.hero-left > p {
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+.hero-left > button {
+    margin-top: 20px;
 }
