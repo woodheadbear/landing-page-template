@@ -23,6 +23,12 @@ h2 {
     font-weight: 900;
 }
 
+h3 {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
 button {
     background-color: #3882f6;
     color: #F9FAF8;
@@ -30,7 +36,7 @@ button {
     font-weight: 900;
     padding: 10px 30px;
     border: none;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
 /* MENU BAR */
@@ -68,6 +74,7 @@ button {
 }
 
 /* HERO SECTION */
+
 .hero-wrapper {
     padding-block: 50px;
 }
@@ -88,4 +95,37 @@ button {
 
 .hero-left > button {
     margin-top: 20px;
+}
+
+/* INFO SECTION */
+
+.info-section {
+    padding-block: 50px;
+}
+
+.info > h3 {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.info-block {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-element {
+    width: 200px;
+    text-align: center;
+}
+
+.info-element > img {
+    border: #3882f6 solid 4px;
+    border-radius: 10px;
+}
+
+.info-element > p {
+    color: #1f2937;
+    font-size: 17px;
+    width: 160px;
+    margin: auto;
 }
