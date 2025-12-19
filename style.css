@@ -47,7 +47,7 @@ button {
 
 /* MENU BAR */
 
-.nav-wrapper, .hero-wrapper {
+.nav-wrapper, .hero-wrapper, .footer-wrapper {
     background-color: #1f2937;
     padding-block: 20px;
 }
@@ -183,4 +183,12 @@ button {
 
 .action-button {
     border: #F9FAF8 2px solid;
+}
+
+/* FOOTER */
+
+.footer > p {
+    color: #F9FAF8;
+    font-size: 18px;
+    text-align: center;
 }
