@@ -129,3 +129,32 @@ button {
     width: 160px;
     margin: auto;
 }
+
+/* QUOTE SECTION */
+
+.quote-wrapper {
+    background-color: #e5e7eb;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    margin: auto;
+    padding-block: 80px;
+}
+
+.text {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
+    padding-bottom: 20px;
+}
+
+.author {
+    font-size: 24px;
+    color: #1f2937;
+    font-weight: 900;
+    margin-left: auto;
+}
