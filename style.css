@@ -29,6 +29,12 @@ h3 {
     font-weight: 900;
 }
 
+h4 {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 900;
+}
+
 button {
     background-color: #3882f6;
     color: #F9FAF8;
@@ -157,4 +163,24 @@ button {
     color: #1f2937;
     font-weight: 900;
     margin-left: auto;
+}
+
+/* CALL TO ACTION SECTION */
+
+.action {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #3882f6;
+    border-radius: 10px;
+    margin-block: 80px;
+    padding-block: 40px;
+}
+
+.action-left > p {
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+.action-button {
+    border: #F9FAF8 2px solid;
 }
